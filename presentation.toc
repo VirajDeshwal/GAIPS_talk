@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {2}{Introduction}{4}{0}{1}
+\beamer@sectionintoc {3}{Content Examples}{10}{0}{2}
+\beamer@subsectionintoc {3}{1}{Images 1/2}{11}{0}{2}
+\beamer@subsectionintoc {3}{2}{Images 2/2}{12}{0}{2}
+\beamer@subsectionintoc {3}{3}{Plotting}{14}{0}{2}
+\beamer@subsectionintoc {3}{4}{Table}{15}{0}{2}
+\beamer@subsectionintoc {3}{5}{Maths}{16}{0}{2}
+\beamer@subsectionintoc {3}{6}{TikZ 1/2}{17}{0}{2}
+\beamer@subsectionintoc {3}{7}{TikZ 2/2}{18}{0}{2}
+\beamer@subsectionintoc {3}{8}{Video clips}{19}{0}{2}
+\beamer@subsectionintoc {3}{9}{References on page}{21}{0}{2}
+\beamer@subsectionintoc {3}{10}{Footnotes}{22}{0}{2}
+\beamer@subsectionintoc {3}{11}{Columns}{23}{0}{2}

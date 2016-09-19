@@ -1,0 +1,14 @@
+\frametitle{Code}
+
+    A slide with some code. C++, Python, \texttt{sh} and XML are pre-configured.
+
+    \begin{pythoncode}
+
+        def print_hello():
+        print("Hello World!")
+
+
+        if __name__ == "__main__":
+        print_hello()
+    \end{pythoncode}
+
