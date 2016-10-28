@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2016.9.15)  19 SEP 2016 13:46
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2016.9.15)  28 OCT 2016 13:41
  \write18 enabled.
 **phd_presentation.tex
 (./phd_presentation.tex
@@ -1049,7 +1049,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.057 seconds)
+luaotfload | main : initialization completed in 0.059 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -1920,26 +1920,26 @@ File: figs/naoMM2.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/naoMM2.pdf used on input line 84.
 (pdftex.def)             Requested size: 98.33162pt x 67.87943pt.
 
-<slide-background.pdf, id=42, 364.19565pt x 273.43053pt>
+<slide-background.pdf, id=42, 597.50786pt x 845.04686pt>
 File: slide-background.pdf Graphic file (type pdf)
 
 <use slide-background.pdf>
 Package pdftex.def Info: slide-background.pdf used on input line 84.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
 luaotfload | load : Lookup/name: "FlamaLight" -> "Flama-Light.otf" [2
 
-<./style/slide-background.pdf><./figs/naoMM.pdf><./figs/naoMM2.pdf>](compiling l
-uc: /var/lib/texmf/luatex-cache/generic/fonts/otf/lmroman8-regular.luc)(load luc
-: /home/alexis/.texmf-var/luatex-cache/generic/fonts/otf/lmroman8-regular.luc)(c
-ompiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/lmroman6-regular.luc
-)(load luc: /home/alexis/.texmf-var/luatex-cache/generic/fonts/otf/lmroman6-regu
-lar.luc)
-LaTeX Font Info:    Try loading font information for U+msa on input line 99.
+<./slide-background.pdf><./figs/naoMM.pdf><./figs/naoMM2.pdf>](compiling luc: /v
+ar/lib/texmf/luatex-cache/generic/fonts/otf/lmroman8-regular.luc)(load luc: /hom
+e/alexis/.texmf-var/luatex-cache/generic/fonts/otf/lmroman8-regular.luc)(compili
+ng luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/lmroman6-regular.luc)(load
+ luc: /home/alexis/.texmf-var/luatex-cache/generic/fonts/otf/lmroman6-regular.lu
+c)
+LaTeX Font Info:    Try loading font information for U+msa on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 99.
+LaTeX Font Info:    Try loading font information for U+msb on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1952,65 +1952,65 @@ oman7-italic.luc)
 File: figs/experimental_setup.pdf Graphic file (type pdf)
 
 <use figs/experimental_setup.pdf>
-Package pdftex.def Info: figs/experimental_setup.pdf used on input line 99.
+Package pdftex.def Info: figs/experimental_setup.pdf used on input line 100.
 (pdftex.def)             Requested size: 153.64493pt x 138.33774pt.
 
 <figs/realSetup.png, id=66, 1571.8725pt x 926.46124pt>
 File: figs/realSetup.png Graphic file (type png)
 
 <use figs/realSetup.png>
-Package pdftex.def Info: figs/realSetup.png used on input line 99.
+Package pdftex.def Info: figs/realSetup.png used on input line 100.
 (pdftex.def)             Requested size: 138.2795pt x 81.49773pt.
 
-Overfull \hbox (8.63455pt too wide) in paragraph at lines 99--99
+Overfull \hbox (8.63455pt too wide) in paragraph at lines 100--100
  [] 
  []
 
+luaotfload | load : Lookup/name: "FlamaMedium" -> "Flama-Medium.otf"
 File: slide-background.pdf Graphic file (type pdf)
 <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 99.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 100.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [3
 
 <./figs/experimental_setup.pdf><./figs/realSetup.png>]
 luaotfload | load : Lookup/name: "FlamaMedium" -> "Flama-Medium.otf"
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 111.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 112.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [4
 
 ]
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 122.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 124.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [5
 
 ]
 luaotfload | load : Lookup/name: "FlamaLight" -> "Flama-Light.otf"
-luaotfload | load : Lookup/name: "FlamaMedium" -> "Flama-Medium.otf"
 File: slide-background.pdf Graphic file (type pdf)
 
 <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 149.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 151.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [6
 
 ]
 <figs/henry2.pdf, id=115, 532.03111pt x 399.45853pt>
 File: figs/henry2.pdf Graphic file (type pdf)
  <use figs/henry2.pdf>
-Package pdftex.def Info: figs/henry2.pdf used on input line 182.
+Package pdftex.def Info: figs/henry2.pdf used on input line 170.
 (pdftex.def)             Requested size: 122.91406pt x 92.2819pt.
 
-Overfull \vbox (33.93805pt too high) detected at line 182
+Overfull \vbox (33.93805pt too high) detected at line 170
  []
 
 File: slide-background.pdf Graphic file (type pdf)
 <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 182.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 170.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [7
 
 <./figs/henry2.pdf>]
@@ -2018,12 +2018,12 @@ Package pdftex.def Info: slide-background.pdf used on input line 182.
 File: figs/normandy_tablet.pdf Graphic file (type pdf)
 
 <use figs/normandy_tablet.pdf>
-Package pdftex.def Info: figs/normandy_tablet.pdf used on input line 200.
+Package pdftex.def Info: figs/normandy_tablet.pdf used on input line 188.
 (pdftex.def)             Requested size: 107.55333pt x 71.70079pt.
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 200.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 188.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [8
 
 <./figs/normandy_tablet.pdf>] <figs/field_of_attention.pdf, id=191, 1194.4625pt
@@ -2031,40 +2031,48 @@ Package pdftex.def Info: slide-background.pdf used on input line 200.
 File: figs/field_of_attention.pdf Graphic file (type pdf)
 
 <use figs/field_of_attention.pdf>
-Package pdftex.def Info: figs/field_of_attention.pdf used on input line 210.
+Package pdftex.def Info: figs/field_of_attention.pdf used on input line 198.
 (pdftex.def)             Requested size: 122.91406pt x 90.88252pt.
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 210.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 198.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [9
 
 <./figs/field_of_attention.pdf>]
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 221.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 209.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [10
 
 ]
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 232.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 220.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
 
 [11
 
 ]
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 241.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 232.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [12
 
 ]
+File: slide-background.pdf Graphic file (type pdf)
+ <use slide-background.pdf>
+Package pdftex.def Info: slide-background.pdf used on input line 241.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
+ [13
+
+]
 File: figs/naoMM.pdf Graphic file (type pdf)
- <use figs/naoMM.pdf>
-Package pdftex.def Info: figs/naoMM.pdf used on input line 271.
+
+<use figs/naoMM.pdf>
+Package pdftex.def Info: figs/naoMM.pdf used on input line 272.
 (pdftex.def)             Requested size: 98.33162pt x 72.53181pt.
 (compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/lmroman7-regular.l
 uc)(load luc: /home/alexis/.texmf-var/luatex-cache/generic/fonts/otf/lmroman7-re
@@ -2073,52 +2081,52 @@ gular.luc)(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/lmroman5
 mroman5-regular.luc)
 
 LaTeX Font Warning: Font shape `EU2/FlamaLight(1)/m/it' undefined
-(Font)              using `EU2/FlamaLight(1)/m/n' instead on input line 271.
+(Font)              using `EU2/FlamaLight(1)/m/n' instead on input line 272.
 
 luaotfload | load : Lookup/name: "FlamaLight" -> "Flama-Light.otf"
 luaotfload | load : Lookup/name: "FlamaLight" -> "Flama-Light.otf"
 luaotfload | load : Lookup/name: "FlamaLight" -> "Flama-Light.otf"
 luaotfload | load : Lookup/name: "FlamaLight" -> "Flama-Light.otf"
 luaotfload | load : Lookup/name: "FlamaLight" -> "Flama-Light.otf" <figs/naoMM4
-.pdf, id=248, 212.14874pt x 168.37938pt>
+.pdf, id=259, 212.14874pt x 168.37938pt>
 File: figs/naoMM4.pdf Graphic file (type pdf)
  <use figs/naoMM4.pdf>
-Package pdftex.def Info: figs/naoMM4.pdf used on input line 271.
+Package pdftex.def Info: figs/naoMM4.pdf used on input line 272.
 (pdftex.def)             Requested size: 98.33162pt x 78.04637pt.
 File: figs/naoMM2.pdf Graphic file (type pdf)
 
 <use figs/naoMM2.pdf>
-Package pdftex.def Info: figs/naoMM2.pdf used on input line 271.
+Package pdftex.def Info: figs/naoMM2.pdf used on input line 272.
 (pdftex.def)             Requested size: 98.33162pt x 67.87943pt.
 
-Overfull \vbox (6.8982pt too high) detected at line 271
+Overfull \vbox (6.8982pt too high) detected at line 272
  []
 
 File: slide-background.pdf Graphic file (type pdf)
 <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 271.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [13
+Package pdftex.def Info: slide-background.pdf used on input line 272.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
+ [14
 
 <./figs/naoMM4.pdf>]
-<figs/archi_general.pdf, id=265, 544.98123pt x 367.34148pt>
+<figs/archi_general.pdf, id=276, 544.98123pt x 367.34148pt>
 File: figs/archi_general.pdf Graphic file (type pdf)
 
 <use figs/archi_general.pdf>
-Package pdftex.def Info: figs/archi_general.pdf used on input line 278.
+Package pdftex.def Info: figs/archi_general.pdf used on input line 279.
 (pdftex.def)             Requested size: 245.83282pt x 165.7001pt.
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 278.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [14
+Package pdftex.def Info: slide-background.pdf used on input line 279.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
+ [15
 
-<./figs/archi_general.pdf>] <figs/true_mis11.pdf, id=286, 384.947pt x 135.38232
+<./figs/archi_general.pdf>] <figs/true_mis11.pdf, id=297, 384.947pt x 135.38232
 pt>
 File: figs/true_mis11.pdf Graphic file (type pdf)
 
 <use figs/true_mis11.pdf>
-Package pdftex.def Info: figs/true_mis11.pdf used on input line 290.
+Package pdftex.def Info: figs/true_mis11.pdf used on input line 293.
 (pdftex.def)             Requested size: 245.83282pt x 86.45847pt.
 luaotfload | load : Lookup/name: "FlamaLight" -> "Flama-Light.otf"(compiling luc
 : /var/lib/texmf/luatex-cache/generic/fonts/otf/lmroman17-regular.luc)(load luc:
@@ -2135,155 +2143,152 @@ luaotfload | load : Lookup/name: "FlamaLight" -> "Flama-Light.otf"
 File: slide-background.pdf Graphic file (type pdf)
 
 <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 290.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [15
+Package pdftex.def Info: slide-background.pdf used on input line 293.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
+ [16
 
 <./figs/true_mis11.pdf>]
-<figs/true_mis12.pdf, id=310, 411.35402pt x 142.07704pt>
+<figs/true_mis12.pdf, id=321, 411.35402pt x 142.07704pt>
 File: figs/true_mis12.pdf Graphic file (type pdf)
 
 <use figs/true_mis12.pdf>
-Package pdftex.def Info: figs/true_mis12.pdf used on input line 301.
+Package pdftex.def Info: figs/true_mis12.pdf used on input line 304.
 (pdftex.def)             Requested size: 245.83282pt x 84.90868pt.
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 301.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [16
+Package pdftex.def Info: slide-background.pdf used on input line 304.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
+ [17
 
 <./figs/true_mis12.pdf>]
-<figs/true_mis2.pdf, id=330, 462.86421pt x 163.87894pt>
+<figs/true_mis2.pdf, id=341, 462.86421pt x 163.87894pt>
 File: figs/true_mis2.pdf Graphic file (type pdf)
 
 <use figs/true_mis2.pdf>
-Package pdftex.def Info: figs/true_mis2.pdf used on input line 313.
+Package pdftex.def Info: figs/true_mis2.pdf used on input line 316.
 (pdftex.def)             Requested size: 276.559pt x 97.92052pt.
 
-Overfull \vbox (7.38527pt too high) detected at line 313
+Overfull \vbox (7.38527pt too high) detected at line 316
  []
 
 File: slide-background.pdf Graphic file (type pdf)
 <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 313.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [17
-
-<./figs/true_mis2.pdf>]
-<figs/final_archi.pdf, id=350, 715.3249pt x 398.37471pt>
-File: figs/final_archi.pdf Graphic file (type pdf)
-
-<use figs/final_archi.pdf>
-Package pdftex.def Info: figs/final_archi.pdf used on input line 324.
-(pdftex.def)             Requested size: 307.28987pt x 171.13365pt.
-File: slide-background.pdf Graphic file (type pdf)
- <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 324.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 316.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [18
 
-<./figs/final_archi.pdf>]
+<./figs/true_mis2.pdf>]
+<figs/final_archi2.pdf, id=361, 715.32149pt x 398.3713pt>
+File: figs/final_archi2.pdf Graphic file (type pdf)
+
+<use figs/final_archi2.pdf>
+Package pdftex.def Info: figs/final_archi2.pdf used on input line 327.
+(pdftex.def)             Requested size: 307.28987pt x 171.13219pt.
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 338.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 327.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [19
 
-]
+<./figs/final_archi2.pdf>] <figs/pomdp.pdf, id=381, 1520.50125pt x 575.91829pt>
+File: figs/pomdp.pdf Graphic file (type pdf)
+ <use figs/pomdp.pdf>
+Package pdftex.def Info: figs/pomdp.pdf used on input line 343.
+(pdftex.def)             Requested size: 307.28987pt x 116.38554pt.
 File: slide-background.pdf Graphic file (type pdf)
- <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 348.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+
+<use slide-background.pdf>
+Package pdftex.def Info: slide-background.pdf used on input line 343.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [20
 
-]
+<./figs/pomdp.pdf>]
+<figs/RL_IRL.pdf, id=401, 845.04686pt x 597.50786pt>
+File: figs/RL_IRL.pdf Graphic file (type pdf)
+ <use figs/RL_IRL.pdf>
+Package pdftex.def Info: figs/RL_IRL.pdf used on input line 351.
+(pdftex.def)             Requested size: 276.559pt x 195.54622pt.
+
+Overfull \vbox (16.64932pt too high) detected at line 351
+ []
+
+File: slide-background.pdf Graphic file (type pdf)
+<use slide-background.pdf>
+Package pdftex.def Info: slide-background.pdf used on input line 351.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
+ [21
+
+<./figs/RL_IRL.pdf>]
 luaotfload | load : Lookup/name: "FlamaLight" -> "Flama-Light.otf"
 File: slide-background.pdf Graphic file (type pdf)
+ <use slide-background.pdf>
+Package pdftex.def Info: slide-background.pdf used on input line 361.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
 
-<use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 379.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [21
+[22
 
 ]
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 379.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [22
-
-]
-File: slide-background.pdf Graphic file (type pdf)
-
-<use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 379.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 377.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [23
 
 ]
-File: slide-background.pdf Graphic file (type pdf)
- <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 421.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [24
-
-]
+<figs/helpIRL.pdf, id=447, 763.84285pt x 313.55333pt>
+File: figs/helpIRL.pdf Graphic file (type pdf)
+ <use figs/helpIRL.pdf>
+Package pdftex.def Info: figs/helpIRL.pdf used on input line 384.
+(pdftex.def)             Requested size: 276.559pt x 113.52979pt.
 File: slide-background.pdf Graphic file (type pdf)
 
 <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 421.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [25
+Package pdftex.def Info: slide-background.pdf used on input line 384.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
+ [24
+
+<./figs/helpIRL.pdf>]
+File: slide-background.pdf Graphic file (type pdf)
+ <use slide-background.pdf>
+Package pdftex.def Info: slide-background.pdf used on input line 432.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
+
+[25
 
 ]
 File: slide-background.pdf Graphic file (type pdf)
  <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 421.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 432.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [26
 
 ]
-<figs/questions.png, id=460, 2842.62pt x 1699.148pt>
+File: slide-background.pdf Graphic file (type pdf)
+ <use slide-background.pdf>
+Package pdftex.def Info: slide-background.pdf used on input line 432.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
+ [27
+
+]
+<figs/questions.png, id=500, 2842.62pt x 1699.148pt>
 File: figs/questions.png Graphic file (type png)
  <use figs/questions.png>
-Package pdftex.def Info: figs/questions.png used on input line 428.
+Package pdftex.def Info: figs/questions.png used on input line 439.
 (pdftex.def)             Requested size: 307.28987pt x 183.666pt.
 File: slide-background.pdf Graphic file (type pdf)
 
 <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 428.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [27
-
-<./figs/questions.png>]
-Overfull \hbox (16.35043pt too wide) in paragraph at lines 476--476
- [] 
- []
-
-
-Overfull \vbox (40.30255pt too high) detected at line 476
- []
-
-File: slide-background.pdf Graphic file (type pdf)
-<use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 476.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
+Package pdftex.def Info: slide-background.pdf used on input line 439.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
  [28
 
-]
-File: slide-background.pdf Graphic file (type pdf)
- <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 483.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [29
-
-]
+<./figs/questions.png>]
 File: slide-background.pdf Graphic file (type pdf)
 
 <use slide-background.pdf>
-Package pdftex.def Info: slide-background.pdf used on input line 493.
-(pdftex.def)             Requested size: 364.20032pt x 273.16699pt.
- [30
+Package pdftex.def Info: slide-background.pdf used on input line 451.
+(pdftex.def)             Requested size: 364.19662pt x 273.14122pt.
+ [29
 
 ]
 \tf@nav=\write9
@@ -2295,47 +2300,47 @@ Package pdftex.def Info: slide-background.pdf used on input line 493.
 \tf@snm=\write11
 
 \openout11 = phd_presentation.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 495.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 495.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 453.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 453.
  (./phd_presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 495.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 495.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 453.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 453.
 Package rerunfilecheck Info: File `phd_presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 495.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 453.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38299 strings out of 495004
+ 38360 strings out of 495004
  125200,953878 words of node,token memory allocated
- 5111 words of node memory still in use:
-   62 hlist, 14 vlist, 4 rule, 32 disc, 12 math, 131 glue, 26 kern, 29 penalty, 
-257 glyph, 143 attribute, 131 glue_spec, 143 attribute_list, 5 action, 4 write, 
+ 5029 words of node memory still in use:
+   62 hlist, 14 vlist, 4 rule, 31 disc, 12 math, 130 glue, 25 kern, 29 penalty, 
+251 glyph, 143 attribute, 131 glue_spec, 143 attribute_list, 5 action, 4 write, 
 11 local_par, 5 pdf_start_link, 5 pdf_end_link, 72 pdf_colorstack nodes
-   avail lists: 1:3,2:560,3:233,4:952,5:129,6:1424,7:178,8:10,9:426,10:125
- 39909 multiletter control sequences out of 65536+600000
- 109 fonts using 7876887 bytes
+   avail lists: 1:3,2:394,3:204,4:608,5:125,6:1404,7:42,8:9,9:202,10:128
+ 39930 multiletter control sequences out of 65536+600000
+ 118 fonts using 8557767 bytes
  48i,15n,73p,931b,577s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic.otf></usr/share/texm
 f/fonts/opentype/public/lm/lmroman7-italic.otf></usr/share/texmf/fonts/opentype/
 public/lm/lmroman10-italic.otf></home/alexis/.fonts/Flama-Medium.otf></home/alex
 is/.fonts/Flama-Light.otf><</usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmex10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><</usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><</usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><</usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on phd_presentation.pdf (30 pages, 21984774 bytes).
+cm/cmmi10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><</usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><</usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><</usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on phd_presentation.pdf (29 pages, 22013347 bytes).
 
-PDF statistics: 576 PDF objects out of 1000 (max. 8388607)
- 452 compressed objects within 5 object streams
- 67 named destinations out of 1000 (max. 131072)
+PDF statistics: 590 PDF objects out of 1000 (max. 8388607)
+ 458 compressed objects within 5 object streams
+ 64 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

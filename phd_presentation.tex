@@ -96,6 +96,7 @@ EPFL}}
     \item a \textcolor{blue}{physical robot} to induce a \textcolor{blue}{``prot\'eg\'e" effect}
     \item the robot is \textcolor{blue}{autonomous}
     \end{itemize}
+\tiny{Hood, Lemaignan, Dillenbourg, {\bf When Children Teach a Robot to Write: An Autonomous Teachable Humanoid Which Uses Simulated Handwriting}, HRI 2015}\\
 \end{frame}
 
 \begin{frame}{Observed issues}
@@ -112,12 +113,13 @@ EPFL}}
 
 \begin{frame}
 
-{\bf How to improve this interaction}:
+{\bf How to improve the possibilities of this interaction}:
 \begin{itemize}
 \item \textcolor{blue}{Long-term} interactions ?
 \item \textcolor{blue}{Metric} to measure the progresses of the child ?
 \item \textcolor{blue}{Perception of the progresses} of the robot ? % about how the child perceives...
 \item \textcolor{blue}{Visual focus of attention} of the child ? 
+\item \textcolor{blue}{Spatial arrangement} between child and robot ?
 \end{itemize}
 \end{frame}
 
@@ -147,20 +149,6 @@ EPFL}}
     %\centering
     %\includegraphics[width=0.15\columnwidth]{diego}
 \end{frame}
-
-%\begin{frame}
-%	\centering    
-%    Robot's handwriting
-%    	\begin{tabular}{c c}
-%    	\includegraphics[width=0.45\columnwidth]{diego-initial-letter}
-%    	&
-%    	\includegraphics[width=0.45\columnwidth]{diego-final-letter}
-%    	\\
-%    	before Vincent's help & after Vincent's help
-%    	\end{tabular}
-%%\tiny{Jacq, Lemaignan, Garcia, Dillenbourg \& Paiva, {\bf Building Successful Long-term Child-Robot Interactions in a Learning Context}, HRI 2016}
-%%\tiny{Lemaignan, Jacq, Hood, Garcia, Paiva, \& Dillenbourg, {\bf Learning by Teaching a Robot: The Case of Handwriting}, RAM 2016}
-%\end{frame}
 
 % we can observe the progress of the robot. but what about imporvement of the child ? can we measur them ?
 
@@ -220,6 +208,17 @@ EPFL}}
 \tiny{Lemaignan, Garcia, Jacq, Dillenbourg {\bf From Real-time Attention Assessment to “With-me-ness” in Human-Robot Interaction}, HRI 2016}
 \end{frame}
 
+\begin{frame}{Study 5}
+    \begin{itemize}
+    \item {\bf Hypothesis}: Child-Robot \textcolor{blue}{Spatial arrangement} influences the interaction.
+    \item {\bf Method}: 12 subjects, within subject study (face-to-face vs side-by-side)
+    \item {\bf Measure}: child's feedback + with-me-ness
+    \item {\bf Result}: feedback more positive in side-by-side condition.\\ % children are more indulgent, but less objective
+    \end{itemize}
+    
+\tiny{Johal, Jacq, Dillenbourg, Paiva {\bf Child-Robot Spatial Arrangement in a Learning by Teaching Activity}, ROMAN 2016}
+\end{frame}
+
 \begin{frame}
 
 {\bf to summarize}:
@@ -228,10 +227,11 @@ EPFL}}
 \item (S2) \textcolor{blue}{Metric} to measure the progresses of the child
 \item (S3) Information about the \textcolor{blue}{perception of the progresses} of the robot % about how the child perceives...
 \item (S4) Estimation of the \textcolor{blue}{visual focus of attention} in real time
+\item (S5) Child-Robot \textcolor{blue}{Spatial arrangement} influences the indulgence of the child. 
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Project for incoming years}
+\begin{frame}{Project of my PhD}
 My goal is to develop a \textcolor{blue}{cognitive architecture} that 
 \begin{itemize}
 \item \textcolor{blue}{takes as input} progress of the child, focus of attention, perception of robot's progress...
@@ -246,6 +246,7 @@ My goal is to develop a \textcolor{blue}{cognitive architecture} that
 
 
 \begin{frame}{Mutual modelling}
+ % the ability to establish a mental model of the other
 \begin{figure}[!tbp]
 	\begin{minipage}[b]{.4\textwidth}
 		\includegraphics[width=0.8\columnwidth]{naoMM}
@@ -276,6 +277,8 @@ My goal is to develop a \textcolor{blue}{cognitive architecture} that
 \includegraphics[width=0.8\columnwidth]{archi_general}
 \end{figure}
 \end{frame}
+
+
 
 \begin{frame}{Misunderstanding (by the robot)}
 When the robot misunderstands the human:
@@ -319,64 +322,72 @@ Child's perception error:
 \begin{frame}{Cognitive architecture}
 \centering
 \begin{figure}
-\includegraphics[width=1.\columnwidth]{final_archi}
+\includegraphics[width=1.\columnwidth]{final_archi2}
+\end{figure}
+\end{frame}
+
+\section*{Implementation}
+
+\begin{frame}{Model of agents}
+\centering
+\begin{figure}
+\includegraphics[width=1.\columnwidth]{pomdp}
+\end{figure}
+assumptions:
+\begin{itemize}
+\item an observation is a \textcolor{blue}{set of events}
+\item each event is associated with a \textcolor{blue}{deterministic reward}
+\item each event has a \textcolor{blue}{value of truth/intensity}, between 0 and 1
+\item the \textcolor{blue}{belief state} is \textcolor{blue}{the set of all values of truth of events}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Reasoning and decision making}
+\centering
+\begin{figure}
+\includegraphics[width=.9\columnwidth]{RL_IRL}
+\end{figure}
+Reinforcement learning in the space of observations (MDP)
+\end{frame}
+
+\begin{frame}{Misunderstanding distances}
+Belief error between models $M_1$ and $M_2$:
+\LARGE
+\textcolor{blue}{$$ \Delta_B(M_1\, ,\, M_2) = \sum \limits_{event\,\, e} (B^t_{M_1}[e] - B^t_{M_2}[e])^2 $$}
+\normalsize
+Reward error between models $M_1$ and $M_2$:
+\LARGE
+\textcolor{blue}{$$ \Delta_R(M_1\, ,\, M_2) = \sum \limits_{event\,\, e} (R^t_{M_1}[e] - R^t_{M_2}[e])^2 $$}
+\end{frame}
+
+
+\begin{frame}{Reaparing misunderstandings}
+(ex: the robot have a good writing, but the robot receives a negative feedback)\\
+\\
+\textcolor{blue}{Prediction error}
+\begin{itemize}
+\item \textcolor{red}{Error of reward}: the goal of the child is not understood
+\item \textcolor{red}{Error of belief}: the child did not well observed the robot (child perception error)
+\end{itemize}
+\textcolor{blue}{Child's perception error}
+\begin{itemize}
+\item \textcolor{red}{Error of reward}: the robot must adopt a \textcolor{blue}{more understandable behavior} (next frame)
+\item \textcolor{red}{Error of belief}: the robot must communicate/show its state (verbally or exagerating action)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Understandable behavior}
+How to make IRL easyer for other agents ?
+\begin{figure}
+\includegraphics[width=.9\columnwidth]{helpIRL}
 \end{figure}
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section*{Experimental studies}
 
-\begin{frame}{Parametrization}
 
-{\bf How to train the robot}:
-\begin{itemize}
-\item \textcolor{blue}{learning the dynamic} between variables of different models
-\item learning how to \textcolor{blue}{make decisions}
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Parametrization}
-
-{\bf Decision making}
-\begin{enumerate}
-\item {\bf Wizard-of-Oz}: A human makes decisions; the robot learns. %The wizard only has access to what the robot uses to make decision, namely the 3 models $M_C\left[CR\right]$, $M_C\left[C\right]$ and $M_C\left[R\right]$ containing the current values of variables. In order to explicitly link decision of the wizard to the cause of his decision, an idea would be to use a graphical interface where he could select the causes (for example a child's perception error) and then select an action (for example an exaggeration of the previous action).
-\item {\bf Mixed-initiative}: The robot makes suggestions; a human agrees or disagrees
-\item {\bf Autonomous}: The robot makes decisions
-\end{enumerate}
-\end{frame}
-
-\begin{frame}{Verification}
-
-\only<1>{
-{\bf Hypothesis}:
-\begin{itemize}
-\item \textit{Decisions made with a second level of modelling aiming to maintain mutual understanding, \textcolor{blue}{improve the quality of human-robot interactions}.}
-\end{itemize}
-{\bf This can be developed in two sub-hypothesis}
-}
-\only<2>{
-{\bf Sub-hypothesis 1}:
-\begin{itemize}
-\item \textit{The second level of modelling enable \textcolor{blue}{different decisions} from a robot that does not have this second level}.
-\end{itemize}
-{\bf Experimental approach}:
-\begin{itemize}
-\item \textcolor{blue}{Human judge} and/or \textcolor{blue}{Objective comparison}. Short experiments, Large number of subjects. Control: 1st level MM
-\end{itemize}
-}
-\only<3>{
-{\bf Sub-hypothesis 2}:
-\begin{itemize}
-\item \textit{The quality of human-robot interactions is \textcolor{blue}{greater} with the robot that has the second level of modelling}.
-\end{itemize}
-{\bf Experimental approach}:
-\begin{itemize}
-\item \textcolor{blue}{Long-term experiments} in real educational/therapeutic context. Small number of subjects. Control: no MM, 1st level MM 
-\end{itemize}
-}
-\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -397,7 +408,7 @@ Child's perception error:
 \item a rich educational interaction where we can extract relevant information about child's mind
 \end{itemize}
 
-{\bf I want to develop and evaluate an architecture}:
+{\bf I am working on an architecture}:
 \begin{itemize}
 \item that uses this information in order to detect and repair misunderstandings
 \end{itemize}}
@@ -408,7 +419,7 @@ Child's perception error:
 \item a rich educational interaction where we can extract relevant information about child's mind
 \end{itemize}
 
-{\bf I want to develop and evaluate an architecture}:
+{\bf I am working on an architecture}:
 \begin{itemize}
 \item that uses this information in order to detect and repair misunderstandings
 \end{itemize}
@@ -428,59 +439,6 @@ Child's perception error:
 \end{frame}
 
 
-\begin{frame}{Decision making}
-\begin{table}
-\centering
-\small
-\renewcommand{\arraystretch}{0.9}
-\begin{tabular}{|l|l|}
-\hline
-$M^{t}_R\left[\textit{C}\right]$ & provides robot with positive feedback\\
-\hline
-$M^{t+1}_R\left[\textit{R}\right]$ & current level of handwriting = 0.1\\
-\hline
-$M^{t+1}_R\left[\textit{C,R}\right]$ & current level of handwriting = 0.7\\
-\hline
-$\Delta=0.6 \geq \Theta$ & high error, must be repaired\\
-\hline
-Reverse dynamic & \textit{what leads to small level of handwriting in} $M^{t}_R\left[\textit{C,R}\right]$ ?\\
-\hline
-$M^{t+1}_R\left[\textit{C,R}\right]$ & current level of handwriting = 0.1\\
-\hline
-$P^{t}_R\left[\textit{C}\right]$ & child give negative feedback\\
-\hline
-$P^{t-1}_R\left[\textit{R}\right]$ & robot writes letters with very poor style\\
-\hline
-$P^{t-1}_R\left[\textit{C}\right]$ & child is looking at the tablet\\
-\hline
-$P^{t-2}_R\left[\textit{R}\right]$ & robot is looking at the tablet\\
-\hline
-$P^{t-2}_R\left[\textit{C}\right]$ & child is looking at the robot\\
-\hline
-$P^{t-3}_R\left[\textit{R}\right]$ & robot is looking at the child\\
-\hline
-Decision 1 & robot looks at the child\\
-\hline
-$M^{t+2}_R\left[\textit{C}\right]$ & child is looking at the robot\\
-\hline
-Decision 2 & robot looks at the tablet\\
-\hline
-$P^{t+3}_R\left[\textit{C}\right]$ & child is looking at the tablet\\
-\hline
-Decision 3 & robot writes letters with very poor style\\
-\hline
-\end{tabular}
-\caption{How to make decision in order to repair child's perception error}
-\label{child_err_2}
-\end{table}
-\end{frame}
-
-\begin{frame}{Encoding dynamic of an agent}
-\begin{itemize}
-\item a node encodes the value (truth or intensity) of a variable between 0 and 1
-\item when the change of the value of one node is followed by the change of value of another one, we create/reinforce a link between these nodes. (\sim Hebbian learning)
-\end{itemize}
-\end{frame}
 
 \begin{frame}{Quality of interaction}
 \begin{itemize}
